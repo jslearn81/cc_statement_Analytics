@@ -33,7 +33,7 @@ extract_dbs_pdf_cc_table('statement.pdf')
 
 <i>Call:</i>
 <br/>
-extract_amex_csv_cc_table('amex.csv')
+extract_amex_csv_cc_table('amex.csv')<br/>
 <i>Returns: a DT</i>
 
 |date       |acct |item                                  |     amt|
