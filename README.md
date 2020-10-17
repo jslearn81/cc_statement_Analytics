@@ -71,5 +71,9 @@ Adds a TAG for category
 
 
 
-Code Example
+How you can contribute ? 
 ====
+Looking for people to:
+1.  Enhance/'robustify' current functions
+2.  Add new Singapore banks data format to this
+3.  Expand Tagging dictionary
