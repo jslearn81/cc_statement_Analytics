@@ -48,7 +48,7 @@ extract_amex_csv_cc_table('amex.csv')
 <i>Call:</i>
 <br/>
 extract_uob_pdf_cc_table('downloaded.xls')
-
+<br/>
 <i>Returns: a DT </i>
 
 |date       |acct                 |item                                                                     |   amt|
