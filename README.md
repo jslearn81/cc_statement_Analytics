@@ -3,7 +3,7 @@
 This is a hackish code written in R for me to track personal credit card spendings and to track the spending category.
 I believe it might benefit others
 
-#Currently it supports the following:
+Currently it supports the following:
 
 1. DBS Credit Card statement (PDF) - I only tested on my range of Credit card so far
 2. UOB Credit Card xls
