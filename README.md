@@ -15,10 +15,11 @@ Code Example
 <b>1. extract_dbs_pdf_cc_table</b>
 
 
-Call:
+<i>Call:</i>
+<br/>
 extract_dbs_pdf_cc_table('statement.pdf')
 
-Returns:
+<i>Returns:</i>
 
 |date       |acct |item                                     |    amt|
 |:----------|:----|:----------------------------------------|------:|
@@ -30,7 +31,8 @@ Returns:
 
 <b>2. extract_amex_csv_cc_table</b>
 
-Call:
+<i>Call:</i>
+<br/>
 extract_amex_csv_cc_table('amex.csv')
 Returns:
 
@@ -43,7 +45,8 @@ Returns:
 
 <b>3. extract_uob_pdf_cc_table </b>
 
-Call:
+<i>Call:</i>
+<br/>
 extract_uob_pdf_cc_table('downloaded.xls')
 
 Returns:
@@ -56,11 +59,12 @@ Returns:
 
 <b>4. tag_spending</b>
 
-Call
+<i>Call:</i>
+<br/>
 tag_spending(df) #DF generated from above
 
-returns:
-
+<i>returns:</i>
+<br/>
 Adds a TAG for category
 
 
