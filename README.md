@@ -79,4 +79,4 @@ Looking for people to:
 2.  Add new Singapore banks data format to this
 3.  Expand Tagging dictionary
 
-Eventually when the code gets more mature, i plan to make it into an R package
+Eventually when the code gets more mature, i plan to make convert this into an R package
