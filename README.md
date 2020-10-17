@@ -1,6 +1,7 @@
 # Singapore Credit Card Statement Analytics
 
-#This is a hackish code based in R for me to track credit card spendings and to track the spending category
+This is a hackish code written in R for me to track personal credit card spendings and to track the spending category.
+I believe it might benefit others
 
 #Currently it supports the following:
 
