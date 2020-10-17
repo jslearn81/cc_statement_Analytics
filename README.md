@@ -19,7 +19,7 @@ Code Example
 <br/>
 extract_dbs_pdf_cc_table('statement.pdf')
 
-<i>Returns:</i>
+<i>Returns: a DT</i>
 
 |date       |acct |item                                     |    amt|
 |:----------|:----|:----------------------------------------|------:|
@@ -34,7 +34,7 @@ extract_dbs_pdf_cc_table('statement.pdf')
 <i>Call:</i>
 <br/>
 extract_amex_csv_cc_table('amex.csv')
-Returns:
+<i>Returns: a DT</i>
 
 |date       |acct |item                                  |     amt|
 |:----------|:----|:-------------------------------------|-------:|
@@ -49,7 +49,7 @@ Returns:
 <br/>
 extract_uob_pdf_cc_table('downloaded.xls')
 
-Returns:
+<i>Returns: a DT </i>
 
 |date       |acct                 |item                                                                     |   amt|
 |:----------|:--------------------|:------------------------------------------------------------------------|-----:|
@@ -63,10 +63,16 @@ Returns:
 <br/>
 tag_spending(df) #DF generated from above
 
-<i>returns:</i>
+<i>Returns: a DT</i>
 <br/>
-Adds a TAG for category
+Adds a TAG column for category
 
+|date       |acct                 |item                                                                     |   amt|           TAG|
+|:----------|:--------------------|:------------------------------------------------------------------------|------|-------------:|
+|2020-09-18 |UOB aaaa |NTUC FP-BT PANJANG PLZ   SINGAPORE    SG Ref No: 7450aaaaaaaaaaaaaaaaa61009467324190 | 25.48|RETAIL/GROCERY|
+
+
+More examples of tags:
 
 |TAG                  |  N|
 |:--------------------|--:|
